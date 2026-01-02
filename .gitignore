@@ -1,0 +1,21 @@
+# 忽略编译文件夹
+build/
+bin/
+out/
+
+# 忽略 VS Code 配置 (个人偏好不上传)
+.vscode/
+
+# 忽略 C++ 中间文件
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 忽略日志文件 (我们要分析它，但不要上传它)
+logs/*.log
+!logs/.gitkeep
+
+# 忽略 JSON 结果
+parsed_logs.json
